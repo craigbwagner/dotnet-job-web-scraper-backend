@@ -1,3 +1,6 @@
+using dotnet_job_web_scraper_backend.Services;
+using dotnet_job_web_scraper_backend.Interfaces;
+
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddEndpointsApiExplorer();
@@ -22,6 +25,10 @@ if (app.Environment.IsDevelopment())
     });
 }
 
-app.MapGet("/", () => "Hello World!");
+app.MapGet("/get-elements", (string url, IParsingService parsingService) =>
+{
+    var result = parsingService.Fetch(url);
+    return;
+});
 
 app.Run();
