@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "RwtLTXzO3PBkVXrt4F7jIF5xaAifUrb7T3E0rxaWfz8=",
+  "Source": "dotnet-job-web-scraper-backend",
+  "BasePath": "_content/dotnet-job-web-scraper-backend",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

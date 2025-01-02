@@ -1,6 +1,8 @@
 namespace dotnet_job_web_scraper_backend.Interfaces;
+using HtmlAgilityPack;
+
 
 public interface IParsingService
 {
-    public void Fetch(string url);
+    Task<HtmlDocument> Fetch();
 }

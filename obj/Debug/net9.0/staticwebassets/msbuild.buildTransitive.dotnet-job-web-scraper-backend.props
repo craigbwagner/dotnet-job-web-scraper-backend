@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../buildMultiTargeting/dotnet-job-web-scraper-backend.props" />
+</Project>
