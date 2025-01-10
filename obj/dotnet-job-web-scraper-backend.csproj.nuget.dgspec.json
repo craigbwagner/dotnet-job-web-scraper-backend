@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/chandlercasey/code/ga/projects/web-scraper-backend/dotnet-job-web-scraper-backend.csproj": {}
+    "/home/craig/code/job-web-scraper/server/dotnet-job-web-scraper-backend.csproj": {}
   },
   "projects": {
-    "/home/chandlercasey/code/ga/projects/web-scraper-backend/dotnet-job-web-scraper-backend.csproj": {
+    "/home/craig/code/job-web-scraper/server/dotnet-job-web-scraper-backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/chandlercasey/code/ga/projects/web-scraper-backend/dotnet-job-web-scraper-backend.csproj",
+        "projectUniqueName": "/home/craig/code/job-web-scraper/server/dotnet-job-web-scraper-backend.csproj",
         "projectName": "dotnet-job-web-scraper-backend",
-        "projectPath": "/home/chandlercasey/code/ga/projects/web-scraper-backend/dotnet-job-web-scraper-backend.csproj",
-        "packagesPath": "/home/chandlercasey/.nuget/packages/",
-        "outputPath": "/home/chandlercasey/code/ga/projects/web-scraper-backend/obj/",
+        "projectPath": "/home/craig/code/job-web-scraper/server/dotnet-job-web-scraper-backend.csproj",
+        "packagesPath": "/home/craig/.nuget/packages/",
+        "outputPath": "/home/craig/code/job-web-scraper/server/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/chandlercasey/.nuget/NuGet/NuGet.Config"
+          "/home/craig/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -48,6 +48,14 @@
             "NSwag.AspNetCore": {
               "target": "Package",
               "version": "[14.2.0, )"
+            },
+            "PuppeteerSharp": {
+              "target": "Package",
+              "version": "[20.0.5, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[4.27.0, )"
             },
             "htmlagilitypack": {
               "target": "Package",

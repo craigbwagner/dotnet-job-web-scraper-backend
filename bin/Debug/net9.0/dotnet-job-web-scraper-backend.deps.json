@@ -9,6 +9,8 @@
       "dotnet-job-web-scraper-backend/1.0.0": {
         "dependencies": {
           "NSwag.AspNetCore": "14.2.0",
+          "PuppeteerSharp": "20.0.5",
+          "Selenium.WebDriver": "4.27.0",
           "HtmlAgilityPack": "1.11.72"
         },
         "runtime": {
@@ -24,6 +26,11 @@
         }
       },
       "Microsoft.Extensions.ApiDescription.Server/6.0.3": {},
+      "Microsoft.Extensions.DependencyInjection/8.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0"
+        }
+      },
       "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.0": {},
       "Microsoft.Extensions.FileProviders.Abstractions/9.0.0": {
         "dependencies": {
@@ -33,6 +40,18 @@
       "Microsoft.Extensions.FileProviders.Embedded/9.0.0": {
         "dependencies": {
           "Microsoft.Extensions.FileProviders.Abstractions": "9.0.0"
+        }
+      },
+      "Microsoft.Extensions.Logging/8.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection": "8.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Options": "9.0.0"
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/8.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0"
         }
       },
       "Microsoft.Extensions.Options/9.0.0": {
@@ -176,6 +195,25 @@
           }
         }
       },
+      "PuppeteerSharp/20.0.5": {
+        "dependencies": {
+          "Microsoft.Extensions.Logging": "8.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/PuppeteerSharp.dll": {
+            "assemblyVersion": "20.0.5.0",
+            "fileVersion": "20.0.5.0"
+          }
+        }
+      },
+      "Selenium.WebDriver/4.27.0": {
+        "runtime": {
+          "lib/net8.0/WebDriver.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
       "YamlDotNet/16.2.0": {
         "runtime": {
           "lib/net8.0/YamlDotNet.dll": {
@@ -206,6 +244,13 @@
       "path": "microsoft.extensions.apidescription.server/6.0.3",
       "hashPath": "microsoft.extensions.apidescription.server.6.0.3.nupkg.sha512"
     },
+    "Microsoft.Extensions.DependencyInjection/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-V8S3bsm50ig6JSyrbcJJ8bW2b9QLGouz+G1miK3UTaOWmMtFwNNNzUf4AleyDWUmTrWMLNnFSLEQtxmxgNQnNQ==",
+      "path": "microsoft.extensions.dependencyinjection/8.0.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512"
+    },
     "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.0": {
       "type": "package",
       "serviceable": true,
@@ -226,6 +271,20 @@
       "sha512": "sha512-6Ev1goLIvggLF6uCs6oZvdr9JM+2b1Zj+4FLdBWNW5iw3tm2BymVIb0yMsjnQTBWL7YUmqVWH3u45hSqOfvuqg==",
       "path": "microsoft.extensions.fileproviders.embedded/9.0.0",
       "hashPath": "microsoft.extensions.fileproviders.embedded.9.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tvRkov9tAJ3xP51LCv3FJ2zINmv1P8Hi8lhhtcKGqM+ImiTCC84uOPEI4z8Cdq2C3o9e+Aa0Gw0rmrsJD77W+w==",
+      "path": "microsoft.extensions.logging/8.0.0",
+      "hashPath": "microsoft.extensions.logging.8.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging.Abstractions/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-arDBqTgFCyS0EvRV7O3MZturChstm50OJ0y9bDJvAcmEPJm0FFpFyjU/JLYyStNGGey081DvnQYlncNX5SJJGA==",
+      "path": "microsoft.extensions.logging.abstractions/8.0.0",
+      "hashPath": "microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512"
     },
     "Microsoft.Extensions.Options/9.0.0": {
       "type": "package",
@@ -324,6 +383,20 @@
       "sha512": "sha512-9VO43wD5IK9O79ZESXD44QtNhoWZi2/5oLHV2JbCd0dR6bJ+9SHqcn+LK3VJFvcRZjFry0JSNd6WBDQL+AH72A==",
       "path": "nswag.generation.aspnetcore/14.2.0",
       "hashPath": "nswag.generation.aspnetcore.14.2.0.nupkg.sha512"
+    },
+    "PuppeteerSharp/20.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eSb/TgexCYN2pG1RMzOZNfw0CG/C5aeXP+j1U46UV9sxekoyi8atPWSF7CXXTvehAyTeDVt89t1S97MU//CPzg==",
+      "path": "puppeteersharp/20.0.5",
+      "hashPath": "puppeteersharp.20.0.5.nupkg.sha512"
+    },
+    "Selenium.WebDriver/4.27.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bMIpqwpBfYLa1lh8gPVa6A1i9LeWNsfc2mR9why0DutEKI7ck3GVxzco1bB/8bv+7IA6rk4sR9WpZLRUnH/AAw==",
+      "path": "selenium.webdriver/4.27.0",
+      "hashPath": "selenium.webdriver.4.27.0.nupkg.sha512"
     },
     "YamlDotNet/16.2.0": {
       "type": "package",

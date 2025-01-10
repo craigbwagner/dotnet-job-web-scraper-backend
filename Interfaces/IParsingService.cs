@@ -4,5 +4,5 @@ using HtmlAgilityPack;
 
 public interface IParsingService
 {
-    Task<HtmlDocument> Fetch();
+    Task<string> Fetch();
 }

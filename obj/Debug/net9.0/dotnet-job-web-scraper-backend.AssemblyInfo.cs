@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("dotnet-job-web-scraper-backend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+54b04bcc4ff1fba90c7cea51e44cf0114f8f52f7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+79295ee5dc731ba563d6173f7efd82b011160543")]
 [assembly: System.Reflection.AssemblyProductAttribute("dotnet-job-web-scraper-backend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("dotnet-job-web-scraper-backend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
